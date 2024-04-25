@@ -4,8 +4,15 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb:123, 36, 28;
+  --background-end-rgb: 130, 224, 170;
+}
+
+.text-gradient {
+  background: linear-gradient(92deg, #569cff 2.87%, #7cee1e 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media (prefers-color-scheme: dark) {
